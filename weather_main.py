@@ -34,13 +34,13 @@ def main():
     elif args.city:
         city = args.city
         if city not in weather_data:
-            print(f"No data available for {city}.")
+            print(f"{city}.")
         elif args.forecast:
             display_forecast(city, weather_data)
         elif args.details:
             display_details(city, weather_data)
         else:
-            print(f"Current condition in {city}: {weather_data[city]['current_condition']}")
+            print(f"{city}: {weather_data[city]['current_condition']}")
     else:
         parser.print_help()
 
