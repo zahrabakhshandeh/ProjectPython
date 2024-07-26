@@ -1,0 +1,1 @@
+print("heloo ostad in matn tamirin baray yadgiri man send shode")
